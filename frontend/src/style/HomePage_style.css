@@ -1,0 +1,150 @@
+.sidebar {
+  width: 250px;
+  background-color: #dcebf9;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.user-icon {
+  color: #4a4a4a;
+  margin-right: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-details p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.dropdown-btn {
+  margin-top: 5px;
+  padding: 4px 8px;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-btn:hover {
+  background-color: #b3d4fc;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #b3d4fc;
+}
+
+.menu-item span {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+
+.dashboard-container {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    font-weight: bold;
+  }
+  
+  .sub-header {
+    margin-top: -10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #6489f8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .tambah-absen {
+    background-color: #6489f8;
+  }
+  
+  .pilih-penugasan {
+    background-color: #6489f8;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #cbe0fc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
