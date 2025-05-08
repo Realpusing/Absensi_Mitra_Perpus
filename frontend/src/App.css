@@ -89,15 +89,25 @@ table {
 }
 
 thead {
-  background-color: #cbe0fc;
+  background-color: #6489f8;
+  color: white;
 }
 
 th, td {
   padding: 12px;
   text-align: center;
   border: 1px solid #ddd;
+  text-align: left;
+
 }
 
+tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9fbff;
+}
 tbody tr:hover {
   background-color: #f5f5f5;
 }
