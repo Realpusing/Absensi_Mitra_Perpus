@@ -10,7 +10,7 @@ const HomePage = ({onUserSelect}) => {
     const [selectedUser, setSelectedUser]= useState(null)
   
     useEffect(() => {
-      fetch('http://localhost:8081/MItra')
+      fetch('http://localhost:8081/mitra')
         .then(res => res.json())
         .then(data => setData(data))
         .catch(err => console.log(err));
@@ -68,10 +68,10 @@ const HomePage = ({onUserSelect}) => {
 
         <a href="#" className="menu-item">
           <FaMoneyBillAlt size={24} />
-          <span>Cek Honor</span>
+          <span href="">Cek Honor</span>
         </a>
 
-        <a href="#" className="menu-item">
+        <a href="/" className="menu-item">
           <FiSettings size={24} />
           <span>Setting</span>
         </a>
